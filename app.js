@@ -10,7 +10,7 @@ formulario.addEventListener("submit", function (evento){
     //ext val (parsear a num los campos tipo num)
     const valorCantidad = parseInt(inputCantidad.value);
     const valorPrecio = parseInt(inputPrecio.value);
-    const valorProducto =inputCantidad.value.trim();
+    const valorProducto =inputProducto.value.trim();
  
     //Cap los errores
     const errorProducto = document.getElementById("errorProducto");
